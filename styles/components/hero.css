@@ -21,11 +21,13 @@
 }
 
 .hero__title {
+  max-width: 23ch;
   color: var(--clr-slate400);
   text-transform: uppercase;
   font-size: var(--size-4xl);
   letter-spacing: -0.05rem;
   line-height: 0.9;
+  /* border: 2px solid red; */
 }
 
 .hero__discription {
