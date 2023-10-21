@@ -1,0 +1,33 @@
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__img {
+  /* display: inline-block; */
+  border-radius: 60%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.hero__subtitle {
+  color: var(--clr-slate800);
+  font-size: var(--size-base);
+}
+
+.hero__title {
+  color: var(--clr-slate400);
+  text-transform: uppercase;
+  font-size: var(--size-4xl);
+  letter-spacing: -0.05rem;
+  line-height: 0.9;
+}
+
+.hero__discription {
+  max-width: 60ch;
+}
